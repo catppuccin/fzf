@@ -11,21 +11,14 @@
     <a href="https://github.com/catppuccin/fzf/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/fzf?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-![FZF Theme Preview](assets/preview.png)
-
 ## Usage
 
-On Bash or ZSH, add the following to your `~/.bashrc`, `~/.zshrc` or another file loaded on your shell startup:
-
-```sh
-export FZF_DEFAULT_OPTS='--color=bg+:#302D41,bg:#1E1E2E,spinner:#F8BD96,hl:#F28FAD --color=fg:#D9E0EE,header:#F28FAD,info:#DDB6F2,pointer:#F8BD96 --color=marker:#F8BD96,fg+:#F2CDCD,prompt:#DDB6F2,hl+:#F28FAD'
-```
-
-On Fish, run the following one time:
-
-```sh
-set -Ux FZF_DEFAULT_OPTS "--color=bg+:#302D41,bg:#1E1E2E,spinner:#F8BD96,hl:#F28FAD --color=fg:#D9E0EE,header:#F28FAD,info:#DDB6F2,pointer:#F8BD96 --color=marker:#F8BD96,fg+:#F2CDCD,prompt:#DDB6F2,hl+:#F28FAD"
-```
+1. Choose your flavour and follow the steps.
+  - [Latte](latte.md)
+  - [Frappe](frappe.md)
+  - [Macchiato](macchiato.md)
+  - [Mocha](mocha.md)
+2. Enjoy!
 
 ## 💝 Thanks to
 

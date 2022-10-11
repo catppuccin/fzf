@@ -1,7 +1,7 @@
 # Mocha
 
 <p align="center">
-  <img src="./assets/mocha.png" />
+  <img src="./assets/mocha.webp" />
 </p>
 
 ## Usage

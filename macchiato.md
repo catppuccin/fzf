@@ -1,7 +1,7 @@
 # Macchiato
 
 <p align="center">
-  <img src="./assets/macchiato.png" />
+  <img src="./assets/macchiato.webp" />
 </p>
 
 ## Usage

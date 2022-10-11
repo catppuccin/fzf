@@ -1,7 +1,7 @@
 # Frappe
 
 <p align="center">
-  <img src="./assets/frappe.png" />
+  <img src="./assets/frappe.webp" />
 </p>
 
 ## Usage

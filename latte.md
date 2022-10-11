@@ -1,7 +1,7 @@
 # Latte
 
 <p align="center">
-  <img src="./assets/latte.png" />
+  <img src="./assets/latte.webp" />
 </p>
 
 ## Usage

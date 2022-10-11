@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/junegunn/fzf">FZF</a>
+	Catppuccin for <a href="https://github.com/junegunn/fzf">fzf</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -17,14 +17,104 @@
 
 ## Usage
 
-1. Choose your flavour and follow the steps.
+1. Choose your flavour below.
+2. Run a snippet based on your shell:
+    - **Bash/Zsh**: add the Bash/Zsh snippet to your <code>~/.bashrc</code>, <code>~/.zshrc</code> or custom file loaded on shell startup:
+    - **Fish**: run the Fish snippet once.
 
-- [Latte](latte.md)
-- [Frappe](frappe.md)
-- [Macchiato](macchiato.md)
-- [Mocha](mocha.md)
+<details>
+<summary>🌻 Latte</summary>
 
-2. Enjoy!
+Bash/Zsh:
+```sh
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39 \
+--color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
+--color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39"
+```
+
+Fish:
+```sh
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39 \
+--color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
+--color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39"
+```
+
+<img src="assets/Latte.webp"/>
+
+</details>
+
+<details>
+<summary>🪴 Frappé</summary>
+
+Bash/Zsh:
+```sh
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284 \
+--color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf \
+--color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
+```
+
+Fish:
+```sh
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284 \
+--color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf \
+--color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
+```
+
+<img src="assets/Frappe.webp"/>
+
+</details>
+
+<details>
+<summary>🌺 Macchiato</summary>
+
+Bash/Zsh:
+```sh
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+```
+
+Fish:
+```sh
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+```
+
+<img src="assets/Macchiato.webp"/>
+
+</details>
+
+<details>
+<summary>🌿 Mocha</summary>
+
+Bash/Zsh:
+```sh
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+```
+
+Fish:
+```sh
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+```
+
+<img src="assets/Mocha.webp"/>
+
+</details>
+
+3. Enjoy!
 
 ## 💝 Thanks to
 

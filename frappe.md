@@ -1,5 +1,9 @@
 # Frappe
 
+<p align="center">
+  <img src="./assets/frappe.png" />
+</p>
+
 ## Usage
 
 On Bash or ZSH, add the following to your `~/.bashrc`, `~/.zshrc` or another file loaded on your shell startup:

@@ -11,13 +11,19 @@
     <a href="https://github.com/catppuccin/fzf/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/fzf?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+<p align="center">
+		<img src="./assets/preview.png" />
+</p>
+
 ## Usage
 
 1. Choose your flavour and follow the steps.
-  - [Latte](latte.md)
-  - [Frappe](frappe.md)
-  - [Macchiato](macchiato.md)
-  - [Mocha](mocha.md)
+
+- [Latte](latte.md)
+- [Frappe](frappe.md)
+- [Macchiato](macchiato.md)
+- [Mocha](mocha.md)
+
 2. Enjoy!
 
 ## 💝 Thanks to

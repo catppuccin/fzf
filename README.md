@@ -19,7 +19,7 @@
 
 1. Choose your flavour below.
 2. Run a snippet based on your shell:
-    - **Bash/Zsh**: add the Bash/Zsh snippet to your <code>~/.bashrc</code>, <code>~/.zshrc</code> or custom file loaded on shell startup:
+    - **Bash/Zsh**: add the Bash/Zsh snippet to your `~/.bashrc`, `~/.zshrc` or custom file loaded on shell startup:
     - **Fish**: run the Fish snippet once.
 
 <details>

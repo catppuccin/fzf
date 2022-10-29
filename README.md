@@ -41,7 +41,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39"
 ```
 
-<img src="assets/Latte.webp"/>
+<img src="assets/latte.webp"/>
 
 </details>
 
@@ -64,7 +64,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
 ```
 
-<img src="assets/Frappe.webp"/>
+<img src="assets/frappe.webp"/>
 
 </details>
 
@@ -87,7 +87,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 ```
 
-<img src="assets/Macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 
 </details>
 
@@ -110,7 +110,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 ```
 
-<img src="assets/Mocha.webp"/>
+<img src="assets/mocha.webp"/>
 
 </details>
 

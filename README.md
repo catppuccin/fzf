@@ -15,6 +15,24 @@
 		<img src="./assets/preview.webp" />
 </p>
 
+## Previews
+<details>
+<summary>🌻 Latte</summary>
+<img src="./assets/latte.webp" />
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="./assets/frappe.webp" />
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="./assets/macchiato.webp" />
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="./assets/mocha.webp" />
+</details>
+
 ## Usage
 
 1. Choose your flavour below.
@@ -26,7 +44,7 @@
 <details>
 <summary>🌻 Latte</summary>
 
-Bash/Zsh:
+**Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39 \
@@ -34,7 +52,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39"
 ```
 
-Fish:
+**Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39 \
@@ -42,7 +60,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39"
 ```
 
-PowerShell:
+**PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
 --color=bg+:#ccd0da,bg:#eff1f5,spinner:#dc8a78,hl:#d20f39
@@ -51,14 +69,12 @@ $ENV:FZF_DEFAULT_OPTS=@"
 "@
 ```
 
-<img src="assets/latte.webp"/>
-
 </details>
 
 <details>
 <summary>🪴 Frappé</summary>
 
-Bash/Zsh:
+**Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284 \
@@ -66,7 +82,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
 ```
 
-Fish:
+**Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284 \
@@ -74,7 +90,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f2d5cf,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284"
 ```
 
-PowerShell:
+**PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
 --color=bg+:#414559,bg:#303446,spinner:#f2d5cf,hl:#e78284
@@ -83,14 +99,12 @@ $ENV:FZF_DEFAULT_OPTS=@"
 "@
 ```
 
-<img src="assets/frappe.webp"/>
-
 </details>
 
 <details>
 <summary>🌺 Macchiato</summary>
 
-Bash/Zsh:
+**Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
@@ -98,7 +112,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 ```
 
-Fish:
+**Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
@@ -106,7 +120,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 ```
 
-PowerShell:
+**PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
 --color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796
@@ -115,14 +129,12 @@ $ENV:FZF_DEFAULT_OPTS=@"
 "@
 ```
 
-<img src="assets/macchiato.webp"/>
-
 </details>
 
 <details>
 <summary>🌿 Mocha</summary>
 
-Bash/Zsh:
+**Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
@@ -130,7 +142,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 ```
 
-Fish:
+**Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
@@ -138,7 +150,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 ```
 
-PowerShell:
+**PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8
@@ -146,8 +158,6 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
 "@
 ```
-
-<img src="assets/mocha.webp"/>
 
 </details>
 

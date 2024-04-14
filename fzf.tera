@@ -19,6 +19,23 @@ whiskers:
 		<img src="./assets/preview.webp" />
 </p>
 
+## Previews
+
+{%- for id, flavor in flavors %}
+<details>
+{%- if id == "latte" %}
+<summary>🌻 Latte</summary>
+{%- elif id == "frappe" %}
+<summary>🪴 Frappé</summary>
+{%- elif id == "macchiato" %}
+<summary>🌺 Macchiato</summary>
+{%- else %}
+<summary>🌿 Mocha</summary>
+{%- endif %}
+<img src="./assets/{{id}}.webp" />
+</details>
+{%- endfor %}
+
 ## Usage
 
 1. Choose your flavour below.
@@ -41,7 +58,7 @@ whiskers:
 <summary>🌿 Mocha</summary>
 {%- endif %}
 
-Bash/Zsh:
+**Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}} \
@@ -49,7 +66,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}"
 ```
 
-Fish:
+**Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
 --color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}} \
@@ -57,7 +74,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}"
 ```
 
-PowerShell:
+**PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
 --color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}}
@@ -65,8 +82,6 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}
 "@
 ```
-
-<img src="assets/{{id}}.webp"/>
 
 </details>
 {%- endfor %}

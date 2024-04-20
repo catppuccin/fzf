@@ -37,10 +37,10 @@
 
 1. Choose your flavour below.
 2. Run a snippet based on your shell:
-    - **Bash/Zsh**: add the Bash/Zsh snippet to your `~/.bashrc`, `~/.zshrc` or custom file loaded on shell startup:
+    - **Bash/Zsh**: add the Bash/Zsh snippet to your `~/.bashrc`, `~/.zshrc` or custom file loaded on shell startup.
     - **Fish**: run the Fish snippet once.
     - **Nushell**: add the Nushell snippet to your `$nu.env-path`.
-    - **PowerShell**: add the PowerShell snippet to your `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`
+    - **PowerShell**: add the PowerShell snippet to your `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`.
 
 <details>
 <summary>🌻 Latte</summary>

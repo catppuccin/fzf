@@ -1,6 +1,8 @@
 ---
 whiskers:
-  version: "2.0.0"
+  version: 2.4.0
+  filename: "README.md"
+  hex_format: "#{{r}}{{g}}{{b}}"
 ---
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
@@ -23,15 +25,7 @@ whiskers:
 
 {%- for id, flavor in flavors %}
 <details>
-{%- if id == "latte" %}
-<summary>🌻 Latte</summary>
-{%- elif id == "frappe" %}
-<summary>🪴 Frappé</summary>
-{%- elif id == "macchiato" %}
-<summary>🌺 Macchiato</summary>
-{%- else %}
-<summary>🌿 Mocha</summary>
-{%- endif %}
+<summary>{{flavor.emoji}} {{flavor.name}}</summary>
 <img src="./assets/{{id}}.webp" />
 </details>
 {%- endfor %}
@@ -48,38 +42,36 @@ whiskers:
 {%- set palette = flavor.colors %}
 
 <details>
-{%- if id == "latte" %}
-<summary>🌻 Latte</summary>
-{%- elif id == "frappe" %}
-<summary>🪴 Frappé</summary>
-{%- elif id == "macchiato" %}
-<summary>🌺 Macchiato</summary>
-{%- else %}
-<summary>🌿 Mocha</summary>
-{%- endif %}
+<summary>{{flavor.emoji}} {{flavor.name}}</summary>
 
 **Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
---color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}} \
---color=fg:#{{palette.text.hex}},header:#{{palette.red.hex}},info:#{{palette.mauve.hex}},pointer:#{{palette.rosewater.hex}} \
---color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}"
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}} \
+--color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
+--color=selected-bg:{{palette.surface1.hex}} \
+--multi"
 ```
 
 **Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
---color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}} \
---color=fg:#{{palette.text.hex}},header:#{{palette.red.hex}},info:#{{palette.mauve.hex}},pointer:#{{palette.rosewater.hex}} \
---color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}"
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}} \
+--color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
+--color=selected-bg:{{palette.surface1.hex}} \
+--multi"
 ```
 
 **PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
---color=bg+:#{{palette.surface0.hex}},bg:#{{palette.base.hex}},spinner:#{{palette.rosewater.hex}},hl:#{{palette.red.hex}}
---color=fg:#{{palette.text.hex}},header:#{{palette.red.hex}},info:#{{palette.mauve.hex}},pointer:#{{palette.rosewater.hex}}
---color=marker:#{{palette.rosewater.hex}},fg+:#{{palette.text.hex}},prompt:#{{palette.mauve.hex}},hl+:#{{palette.red.hex}}
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}}
+--color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}}
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}}
+--color=selected-bg:{{palette.surface1.hex}}
+--multi
 "@
 ```
 

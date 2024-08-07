@@ -41,6 +41,10 @@
     - **Fish**: run the Fish snippet once.
     - **PowerShell**: add the PowerShell snippet to your `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`
 
+> [!TIP]
+> If you are using a transparent terminal background, remove the `bg` option in
+> the following list of snippets.
+
 <details>
 <summary>🌻 Latte</summary>
 

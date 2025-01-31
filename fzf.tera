@@ -55,7 +55,10 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
 --color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
 --color=selected-bg:{{palette.surface1.hex}} \
---multi"
+--color=list-border:{{palette.green.hex}},list-label:{{palette.green.hex}} \
+--color=preview-border:{{palette.red.hex}},preview-label:{{palette.red.hex}} \
+--color=input-border:{{palette.mauve.hex}},input-label:{{palette.mauve.hex}} \
+--color=header-border:{{palette.blue.hex}},header-label:{{palette.blue.hex}}"
 ```
 
 **Fish**:
@@ -65,7 +68,10 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
 --color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
 --color=selected-bg:{{palette.surface1.hex}} \
---multi"
+--color=list-border:{{palette.green.hex}},list-label:{{palette.green.hex}} \
+--color=preview-border:{{palette.red.hex}},preview-label:{{palette.red.hex}} \
+--color=input-border:{{palette.mauve.hex}},input-label:{{palette.mauve.hex}} \
+--color=header-border:{{palette.blue.hex}},header-label:{{palette.blue.hex}}"
 ```
 
 **PowerShell**:
@@ -75,7 +81,10 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}}
 --color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}}
 --color=selected-bg:{{palette.surface1.hex}}
---multi
+--color=list-border:{{palette.green.hex}},list-label:{{palette.green.hex}}
+--color=preview-border:{{palette.red.hex}},preview-label:{{palette.red.hex}}
+--color=input-border:{{palette.mauve.hex}},input-label:{{palette.mauve.hex}}
+--color=header-border:{{palette.blue.hex}},header-label:{{palette.blue.hex}}
 "@
 ```
 

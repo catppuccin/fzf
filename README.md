@@ -55,10 +55,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
 --color=marker:#7287fd,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39 \
 --color=selected-bg:#bcc0cc \
---color=list-border:#40a02b,list-label:#40a02b \
---color=preview-border:#d20f39,preview-label:#d20f39 \
---color=input-border:#8839ef,input-label:#8839ef \
---color=header-border:#1e66f5,header-label:#1e66f5"
+--color=border:#ccd0da,label:#4c4f69"
 ```
 
 **Fish**:
@@ -68,10 +65,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
 --color=marker:#7287fd,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39 \
 --color=selected-bg:#bcc0cc \
---color=list-border:#40a02b,list-label:#40a02b \
---color=preview-border:#d20f39,preview-label:#d20f39 \
---color=input-border:#8839ef,input-label:#8839ef \
---color=header-border:#1e66f5,header-label:#1e66f5"
+--color=border:#ccd0da,label:#4c4f69"
 ```
 
 **PowerShell**:
@@ -81,10 +75,7 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78
 --color=marker:#7287fd,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39
 --color=selected-bg:#bcc0cc
---color=list-border:#40a02b,list-label:#40a02b
---color=preview-border:#d20f39,preview-label:#d20f39
---color=input-border:#8839ef,input-label:#8839ef
---color=header-border:#1e66f5,header-label:#1e66f5
+--color=border:#ccd0da,label:#4c4f69
 "@
 ```
 
@@ -100,10 +91,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf \
 --color=marker:#babbf1,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284 \
 --color=selected-bg:#51576d \
---color=list-border:#a6d189,list-label:#a6d189 \
---color=preview-border:#e78284,preview-label:#e78284 \
---color=input-border:#ca9ee6,input-label:#ca9ee6 \
---color=header-border:#8caaee,header-label:#8caaee"
+--color=border:#414559,label:#c6d0f5"
 ```
 
 **Fish**:
@@ -113,10 +101,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf \
 --color=marker:#babbf1,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284 \
 --color=selected-bg:#51576d \
---color=list-border:#a6d189,list-label:#a6d189 \
---color=preview-border:#e78284,preview-label:#e78284 \
---color=input-border:#ca9ee6,input-label:#ca9ee6 \
---color=header-border:#8caaee,header-label:#8caaee"
+--color=border:#414559,label:#c6d0f5"
 ```
 
 **PowerShell**:
@@ -126,10 +111,7 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=fg:#c6d0f5,header:#e78284,info:#ca9ee6,pointer:#f2d5cf
 --color=marker:#babbf1,fg+:#c6d0f5,prompt:#ca9ee6,hl+:#e78284
 --color=selected-bg:#51576d
---color=list-border:#a6d189,list-label:#a6d189
---color=preview-border:#e78284,preview-label:#e78284
---color=input-border:#ca9ee6,input-label:#ca9ee6
---color=header-border:#8caaee,header-label:#8caaee
+--color=border:#414559,label:#c6d0f5
 "@
 ```
 
@@ -145,10 +127,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
 --color=selected-bg:#494d64 \
---color=list-border:#a6da95,list-label:#a6da95 \
---color=preview-border:#ed8796,preview-label:#ed8796 \
---color=input-border:#c6a0f6,input-label:#c6a0f6 \
---color=header-border:#8aadf4,header-label:#8aadf4"
+--color=border:#363a4f,label:#cad3f5"
 ```
 
 **Fish**:
@@ -158,10 +137,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796 \
 --color=selected-bg:#494d64 \
---color=list-border:#a6da95,list-label:#a6da95 \
---color=preview-border:#ed8796,preview-label:#ed8796 \
---color=input-border:#c6a0f6,input-label:#c6a0f6 \
---color=header-border:#8aadf4,header-label:#8aadf4"
+--color=border:#363a4f,label:#cad3f5"
 ```
 
 **PowerShell**:
@@ -171,10 +147,7 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6
 --color=marker:#b7bdf8,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796
 --color=selected-bg:#494d64
---color=list-border:#a6da95,list-label:#a6da95
---color=preview-border:#ed8796,preview-label:#ed8796
---color=input-border:#c6a0f6,input-label:#c6a0f6
---color=header-border:#8aadf4,header-label:#8aadf4
+--color=border:#363a4f,label:#cad3f5
 "@
 ```
 
@@ -190,10 +163,7 @@ export FZF_DEFAULT_OPTS=" \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
 --color=selected-bg:#45475a \
---color=list-border:#a6e3a1,list-label:#a6e3a1 \
---color=preview-border:#f38ba8,preview-label:#f38ba8 \
---color=input-border:#cba6f7,input-label:#cba6f7 \
---color=header-border:#89b4fa,header-label:#89b4fa"
+--color=border:#313244,label:#cdd6f4"
 ```
 
 **Fish**:
@@ -203,10 +173,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
 --color=selected-bg:#45475a \
---color=list-border:#a6e3a1,list-label:#a6e3a1 \
---color=preview-border:#f38ba8,preview-label:#f38ba8 \
---color=input-border:#cba6f7,input-label:#cba6f7 \
---color=header-border:#89b4fa,header-label:#89b4fa"
+--color=border:#313244,label:#cdd6f4"
 ```
 
 **PowerShell**:
@@ -216,10 +183,7 @@ $ENV:FZF_DEFAULT_OPTS=@"
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8
 --color=selected-bg:#45475a
---color=list-border:#a6e3a1,list-label:#a6e3a1
---color=preview-border:#f38ba8,preview-label:#f38ba8
---color=input-border:#cba6f7,input-label:#cba6f7
---color=header-border:#89b4fa,header-label:#89b4fa
+--color=border:#313244,label:#cdd6f4
 "@
 ```
 

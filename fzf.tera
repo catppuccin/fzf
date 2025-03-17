@@ -51,9 +51,9 @@ whiskers:
 **Bash/Zsh**:
 ```sh
 export FZF_DEFAULT_OPTS=" \
---color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}} \
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.teal.hex}} \
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
---color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.teal.hex}} \
 --color=selected-bg:{{palette.surface1.hex}} \
 --color=border:{{palette.surface0.hex}},label:{{palette.text.hex}}"
 ```
@@ -61,9 +61,9 @@ export FZF_DEFAULT_OPTS=" \
 **Fish**:
 ```sh
 set -Ux FZF_DEFAULT_OPTS "\
---color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}} \
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.teal.hex}} \
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}} \
---color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}} \
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.teal.hex}} \
 --color=selected-bg:{{palette.surface1.hex}} \
 --color=border:{{palette.surface0.hex}},label:{{palette.text.hex}}"
 ```
@@ -71,9 +71,9 @@ set -Ux FZF_DEFAULT_OPTS "\
 **PowerShell**:
 ```powershell
 $ENV:FZF_DEFAULT_OPTS=@"
---color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.red.hex}}
+--color=bg+:{{palette.surface0.hex}},bg:{{palette.base.hex}},spinner:{{palette.rosewater.hex}},hl:{{palette.teal.hex}}
 --color=fg:{{palette.text.hex}},header:{{palette.red.hex}},info:{{palette.mauve.hex}},pointer:{{palette.rosewater.hex}}
---color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.red.hex}}
+--color=marker:{{palette.lavender.hex}},fg+:{{palette.text.hex}},prompt:{{palette.mauve.hex}},hl+:{{palette.teal.hex}}
 --color=selected-bg:{{palette.surface1.hex}}
 --color=border:{{palette.surface0.hex}},label:{{palette.text.hex}}
 "@

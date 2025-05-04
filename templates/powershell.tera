@@ -1,0 +1,15 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-fzf-{{ flavor.identifier }}.ps1"
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
+---
+$ENV:FZF_DEFAULT_OPTS=@"
+--color=bg+:{{surface0.hex}},bg:{{base.hex}},spinner:{{rosewater.hex}},hl:{{red.hex}}
+--color=fg:{{text.hex}},header:{{red.hex}},info:{{mauve.hex}},pointer:{{rosewater.hex}}
+--color=marker:{{lavender.hex}},fg+:{{text.hex}},prompt:{{mauve.hex}},hl+:{{red.hex}}
+--color=selected-bg:{{surface1.hex}}
+--color=border:{{surface0.hex}},label:{{text.hex}}
+"@

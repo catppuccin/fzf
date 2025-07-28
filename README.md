@@ -36,7 +36,7 @@
 
 ## Usage
 
-Choose and run a snippet from a one of the folders in the [themes](./themes)
+Choose and run a snippet from one of the folders in the [themes](./themes)
 directory based on your shell:
 
 - **Bash/Zsh (`.sh`)**: add the Bash/Zsh to your `~/.bashrc`, `~/.zshrc` or

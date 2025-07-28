@@ -3,7 +3,7 @@ whiskers:
   version: ^2.5.1
   matrix:
     - flavor
-  filename: "themes/catppuccin-fzf-{{ flavor.identifier }}.fish"
+  filename: "themes/{{ flavor.identifier }}/catppuccin-fzf-{{ flavor.identifier }}.fish"
   hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
 ---
 set -Ux FZF_DEFAULT_OPTS "\

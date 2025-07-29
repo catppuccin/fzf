@@ -36,11 +36,14 @@
 
 ## Usage
 
-Choose and run a snippet from the [themes](./themes) directory based on your shell:
+Choose and run a snippet from one of the folders in the [themes](./themes)
+directory based on your shell:
 
-- **Bash/Zsh (`.sh`)**: add the Bash/Zsh to your `~/.bashrc`, `~/.zshrc` or custom file loaded on shell startup.
+- **Bash/Zsh (`.sh`)**: add the Bash/Zsh to your `~/.bashrc`, `~/.zshrc` or
+  custom file loaded on shell startup.
 - **Fish (`.fish`)**: run the Fish snippet once.
-- **PowerShell (`.ps1`)**: add the PowerShell snippet to your `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`.
+- **PowerShell (`.ps1`)**: add the PowerShell snippet to your
+  `~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1`.
 
 > [!TIP]
 > If you are using a transparent terminal background, remove the `bg` option in

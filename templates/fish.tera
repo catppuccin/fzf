@@ -11,4 +11,4 @@ set -Ux FZF_DEFAULT_OPTS "\
 --color=fg:{{text.hex}},header:{{red.hex}},info:{{mauve.hex}},pointer:{{rosewater.hex}} \
 --color=marker:{{lavender.hex}},fg+:{{text.hex}},prompt:{{mauve.hex}},hl+:{{red.hex}} \
 --color=selected-bg:{{surface1.hex}} \
---color=border:{{surface0.hex}},label:{{text.hex}}"
+--color=border:{{overlay0.hex}},label:{{text.hex}}"

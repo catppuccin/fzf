@@ -14,5 +14,6 @@ jobs:
       args: |
         templates/bash-zsh.tera
         templates/fish.tera
+        templates/nushell.tera
         templates/powershell.tera
     secrets: inherit

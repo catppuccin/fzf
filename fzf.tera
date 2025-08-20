@@ -1,0 +1,40 @@
+---
+whiskers:
+  version: ^2.5.1
+  matrix:
+    - flavor
+    - variant: ["sh", "fish", "nu", "ps1"]
+  filename: "themes/catppuccin-fzf-{{ flavor.identifier }}.{{ variant }}"
+  hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
+---
+{% macro line_end() %}
+  {%- if variant == "sh" or variant == "fish" %} \
+  {%- endif -%}
+{%- endmacro line_end -%}
+
+{% macro theme_start() %}
+  {%- if variant == "sh" -%}
+export FZF_DEFAULT_OPTS=" \
+  {%- elif variant == "fish" -%}
+set -Ux FZF_DEFAULT_OPTS "\
+  {%- elif variant == "nu" -%}
+$env.FZF_DEFAULT_OPTS = "
+  {%- elif variant == "ps1" -%}
+$ENV:FZF_DEFAULT_OPTS=@"
+  {%- endif -%}
+{%- endmacro theme_start -%}
+
+{% macro theme_end() %}
+  {%- if variant == "ps1" %}
+"@
+  {%- else -%}
+"
+  {%- endif -%}
+{%- endmacro theme_end -%}
+
+{{self::theme_start()}}
+--color=bg+:{{surface0.hex}},bg:{{base.hex}},spinner:{{rosewater.hex}},hl:{{red.hex}}{{self::line_end()}}
+--color=fg:{{text.hex}},header:{{red.hex}},info:{{mauve.hex}},pointer:{{rosewater.hex}}{{self::line_end()}}
+--color=marker:{{lavender.hex}},fg+:{{text.hex}},prompt:{{mauve.hex}},hl+:{{red.hex}}{{self::line_end()}}
+--color=selected-bg:{{surface1.hex}}{{self::line_end()}}
+--color=border:{{overlay0.hex}},label:{{text.hex}}{{self::theme_end()}}

@@ -12,8 +12,5 @@ jobs:
     uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
     with:
       args: |
-        templates/bash-zsh.tera
-        templates/fish.tera
-        templates/nushell.tera
-        templates/powershell.tera
+        fzf.tera
     secrets: inherit

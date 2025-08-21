@@ -3,8 +3,9 @@ whiskers:
   version: ^2.5.1
   matrix:
     - flavor
+    - accent
     - variant: ["sh", "fish", "nu", "ps1"]
-  filename: "themes/catppuccin-fzf-{{ flavor.identifier }}.{{ variant }}"
+  filename: "themes/{{ flavor.identifier }}/{{ accent }}/catppuccin-fzf.{{ variant }}"
   hex_format: "#{{R}}{{G}}{{B}}{{Z}}"
 ---
 {% macro line_end() %}
@@ -33,8 +34,8 @@ $ENV:FZF_DEFAULT_OPTS=@"
 {%- endmacro theme_end -%}
 
 {{self::theme_start()}}
---color=bg+:{{surface0.hex}},bg:{{base.hex}},spinner:{{rosewater.hex}},hl:{{red.hex}}{{self::line_end()}}
---color=fg:{{text.hex}},header:{{red.hex}},info:{{mauve.hex}},pointer:{{rosewater.hex}}{{self::line_end()}}
---color=marker:{{lavender.hex}},fg+:{{text.hex}},prompt:{{mauve.hex}},hl+:{{red.hex}}{{self::line_end()}}
+--color=bg+:{{surface0.hex}},bg:{{base.hex}},spinner:{{rosewater.hex}},hl:{{flavor.colors[accent].hex}}{{self::line_end()}}
+--color=fg:{{text.hex}},header:{{flavor.colors[accent].hex}},info:{{flavor.colors[accent].hex}},pointer:{{flavor.colors[accent].hex}}{{self::line_end()}}
+--color=marker:{{flavor.colors[accent].hex}},fg+:{{text.hex}},prompt:{{flavor.colors[accent].hex}},hl+:{{flavor.colors[accent].hex}}{{self::line_end()}}
 --color=selected-bg:{{surface1.hex}}{{self::line_end()}}
 --color=border:{{overlay0.hex}},label:{{text.hex}}{{self::theme_end()}}
